@@ -27,7 +27,7 @@ jobs:
     strategy:
       matrix:
         arch: [amd64, 386, arm, arm64]
-        os: [windows, linux, darwin]
+        os: [windows, linux, darwin, freebsd]
         include:
           - ext: .exe
             os: windows
